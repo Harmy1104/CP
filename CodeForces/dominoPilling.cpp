@@ -26,10 +26,15 @@ int rect(float m, float n){
 }
 
 void solve() {
-	float w, h;
+	// float w, h;
+	int w, h, ans = 0;
 	cin >> w >> h;
+	if(w%2 != 0)
+		ans += (w-1)/2;
 	for(int i = 0; i <= w; i+=2){
-		for()
+		for(int j = 0; j <= h; j++){
+			ans ++;
+		}
 	}
 	// if (fmod(w,2) == 0 || fmod(h,2) == 0){
 // 		cout << (w/2)*h;
