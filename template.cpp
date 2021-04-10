@@ -3,6 +3,7 @@ using namespace std;
 
 #define ar array
 #define ll long long
+#define v_sort(a) sort((a).begin(), (a).end())
 #define to_upper(a) transform((a).begin(), (a).end(), (a).begin(), ::toupper)
 #define to_lower(a) transform((a).begin(), (a).end(), (a).begin(), ::tolower)
 
