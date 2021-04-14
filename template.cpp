@@ -3,8 +3,6 @@ using namespace std;
 
 #define ar array
 #define ll long long
-#define v_sort(a) sort((a).begin(), (a).end())
-#define v_print(a, type, sep, nl) copy(a.begin(), a.end(), ostream_iterator<type>(cout, sep)); nl ? cout << "\n" : cout << ""
 #define to_upper(a) transform((a).begin(), (a).end(), (a).begin(), ::toupper)
 #define to_lower(a) transform((a).begin(), (a).end(), (a).begin(), ::tolower)
 
